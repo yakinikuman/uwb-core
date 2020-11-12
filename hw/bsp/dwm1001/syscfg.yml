@@ -65,6 +65,7 @@ syscfg.vals:
     MCU_DCDC_ENABLED: 1
 
     UART_0: 0
+#Note these PIN numbers are [N].P0# from DWM1001 Datasheet.pdf
     UART_0_PIN_TX: 5
     UART_0_PIN_RX: 11
     UART_0_PIN_RTS: -1
@@ -74,7 +75,13 @@ syscfg.vals:
     SPI_0_MASTER_PIN_SCK: 16
     SPI_0_MASTER_PIN_MOSI: 20
     SPI_0_MASTER_PIN_MISO: 18
-
+    SPI_1_MASTER_PIN_SCK: 4
+    SPI_1_MASTER_PIN_MOSI: 6
+    SPI_1_MASTER_PIN_MISO: 7
+    SPI_1_SLAVE_PIN_SCK: 4
+    SPI_1_SLAVE_PIN_MOSI: 6
+    SPI_1_SLAVE_PIN_MISO: 7
+    SPI_1_SLAVE_PIN_SS: 3
     I2C_1_PIN_SCL: 28
     I2C_1_PIN_SDA: 29
     I2C_1_FREQ_KHZ: 400
